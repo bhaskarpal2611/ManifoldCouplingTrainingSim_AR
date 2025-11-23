@@ -14,12 +14,8 @@ A mobile AR module for training on manifold coupling systems, built with Unity a
 - **Audio Cues**: Centralized, expandable event sounds.
 - **Input Routing**: State-driven, clean separation between UI and gameplay.
 
-## Partially Implemented
-
-- Directional UI Guidance Arrows: Logic present, visuals pending.
-
 ## Not Implemented
-
+- Directional UI Guidance Arrows: Logic present, visuals pending.
 - Assessment Mode: Framework present (data/events), but lacks full flow and scoring.
 
 ## Installation
