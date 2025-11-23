@@ -6,8 +6,10 @@ A mobile AR module for training on manifold coupling systems, built with Unity a
 ## Screen Recording
 
 A short walkthrough of the module in action:
-https://github.com/user-attachments/assets/9b09440c-e903-455d-a7f6-87f2f8a14a89
 
+<p align="center" width="80%">
+<video src="https://github.com/user-attachments/assets/e72df9ce-74a3-4543-b248-c60d697b1b1f" width="60%" controls></video>
+</p>
 
 ## Features
 
