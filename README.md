@@ -22,7 +22,7 @@ A mobile AR module for training on manifold coupling systems, built with Unity a
 
 1. Clone the repo:
     ```
-    git clone https://github.com/yourusername/ManifoldCouplingTrainingSim_AR.git
+    git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
     ```
 2. Open in Unity 2020.3+ with AR Foundation.
 3. Deploy to a supported device.
