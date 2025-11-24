@@ -44,7 +44,14 @@ public class ManifoldConnectorController : MonoBehaviour
 
     private void Start()
     {
-        _delay = new WaitForSeconds(_moveSmoothing);
+        var _delaycoroutineTime = _moveSmoothing;
+        
+        if(GameManager.Instance.CurrentState == GameState.TutorialMode) 
+        {
+            _delayCoroutineTime = 0f;
+        }
+    
+        _delay = new WaitForSeconds(_delayCoroutineTime);
         _startPositionLocal = transform.localPosition;
     }
 
@@ -143,8 +150,8 @@ public class ManifoldConnectorController : MonoBehaviour
 
     private void TriggerAlignmentCheckDelayed()
     {
-        if (_invokeRoutine != null)
-            StopCoroutine(_invokeRoutine);
+        // if (_invokeRoutine != null)
+        //     StopCoroutine(_invokeRoutine);
 
         _invokeRoutine = StartCoroutine(DelayedAlignmentInvoke());
     }
